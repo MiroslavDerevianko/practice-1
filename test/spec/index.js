@@ -8,3 +8,7 @@ import "./task-7.spec";
 import "./task-8.spec";
 import "./task-9.spec";
 import "./task-10.spec";
+import "./task-11.spec";
+import "./task-12.spec";
+import "./task-13.spec";
+import "./task-14.spec";

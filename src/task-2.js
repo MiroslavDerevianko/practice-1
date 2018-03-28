@@ -1,6 +1,13 @@
 
 export default function getNthItem(a, n) {
-    // Change me!
+    //Перевірка на число
 
-    return 0;
+    //Первірка на нуль
+     
+
+    let S = 0;
+    for (let i = 0; i < n; i++) {
+        S = a - 2 * S;
+    }
+    return S;
 }

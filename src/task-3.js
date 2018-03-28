@@ -1,6 +1,12 @@
 
 export default function sumDigits(n) {
-    // Change me!
+    //Перевірка на число
 
-    return 0;
+    const S = n.toString();
+    let result = 0;
+    for (let i = 0; i < S.length; i++) {
+        const currentchar = S.charAt(i);
+        result += parseInt(currentchar, 10); 
+    }
+    return result;
 }
